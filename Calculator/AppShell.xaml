@@ -1,0 +1,43 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<Shell
+    x:Class="Calculator.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:Calculator"
+   
+    >
+    <Shell.FlyoutHeader>
+        <Grid HeightRequest="50" BackgroundColor="{DynamicResource fgColor}">
+        </Grid>
+    </Shell.FlyoutHeader>
+    <FlyoutItem Title = "Home">
+        <ShellContent
+            ContentTemplate = "{DataTemplate local:MainPage}" />
+    </FlyoutItem>
+    <FlyoutItem Title = "Advanced Page">
+        <ShellContent
+            ContentTemplate = "{DataTemplate local:AddedFunc}" />
+    </FlyoutItem>
+    <FlyoutItem Title = "Comprehensive Expressions">
+        <ShellContent
+            ContentTemplate = "{DataTemplate local:Comprehensive}" />
+    </FlyoutItem>
+    
+    <FlyoutItem Title = "Simple Exercise">
+        <ShellContent
+            ContentTemplate = "{DataTemplate local:SimpleExercise}"
+            />
+    </FlyoutItem>
+
+
+    <MenuItem Text="Onlight" Clicked="LightTheme" />
+    <MenuItem Text="OnDark" Clicked="DarkTheme" />
+    <MenuItem Text="Green" Clicked="GreenTheme" />
+    <MenuItem Text="Pink" Clicked="PinkTheme" />
+    
+    <FlyoutItem Title = "About">
+        <ShellContent
+            ContentTemplate = "{DataTemplate local:About}" />
+    </FlyoutItem>
+
+</Shell>

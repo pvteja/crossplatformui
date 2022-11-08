@@ -1,0 +1,82 @@
+[
+  {
+    "id": "1",
+    "question": "3x4=?",
+    "optionA": "12",
+    "optionB": "45",
+    "optionC": "10",
+    "answer": "12"
+  },
+  {
+    "id": "2",
+    "question": "12x7=?",
+    "optionA": "90",
+    "optionB": "48",
+    "optionC": "84",
+    "answer": "84"
+  },
+  {
+    "id": "3",
+    "question": "36 divided by 4=?",
+    "optionA": "12",
+    "optionB": "9",
+    "optionC": "7",
+    "answer": "9"
+  },
+  {
+    "id": "4",
+    "question": "100 divided by 25=?",
+    "optionA": "4",
+    "optionB": "5",
+    "optionC": "6",
+    "answer": "4"
+  },
+  {
+    "id": "5",
+    "question": "12+12=?",
+    "optionA": "24",
+    "optionB": "34",
+    "optionC": "44",
+    "answer": "24"
+  },
+  {
+    "id": "6",
+    "question": "12+24=?",
+    "optionA": "12",
+    "optionB": "24",
+    "optionC": "36",
+    "answer": "36"
+  },
+  {
+    "id": "7",
+    "question": "12-8=?",
+    "optionA": "3",
+    "optionB": "4",
+    "optionC": "5",
+    "answer": "4"
+  },
+  {
+    "id": "8",
+    "question": "15x5=?",
+    "optionA": "65",
+    "optionB": "75",
+    "optionC": "85",
+    "answer": "75"
+  },
+  {
+    "id": "9",
+    "question": "36 divided by 12=?",
+    "optionA": "3",
+    "optionB": "4",
+    "optionC": "5",
+    "answer": "3"
+  },
+  {
+    "id": "10",
+    "question": "56 divided by 4=?",
+    "optionA": "12",
+    "optionB": "13",
+    "optionC": "14",
+    "answer": "14"
+  }
+]
